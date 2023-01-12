@@ -4,11 +4,13 @@ public class ModelProject
 {
     public static void main(String[] args)
     {
-        long MyDocumentNumber=012345675l;
+        long MyDocumentNumber=12345675L;
+        long MobileNumber=6374734318L;
         String HolderName="Sugan";
         String FatherName="Poosanam";
         String DateOfBirth="24/10/1999";
         String Address="24 Car Street," + "Salem-0";
+        System.out.println("My Mobile No : "+MobileNumber);
         System.out.println("My Document No : "+MyDocumentNumber);
         System.out.println("HolderName : "+HolderName);
         System.out.println("Holder's Father Name : "+FatherName);
